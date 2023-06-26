@@ -67,7 +67,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 }
 ```
 
-In JavaScript, learned use of break function which prevented additional code, here it is responsible for no letting function work until condition is met. 
+In JavaScript, learned use of break function which prevented additional code, here it is responsible for not letting function work until condition is met. 
 ```js
 function nextRoundFn() {
 	noNextRound: if (value === 0) {
