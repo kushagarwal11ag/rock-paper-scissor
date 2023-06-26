@@ -1,7 +1,7 @@
-# Personal Project - Rock Paper Scissors game
+# Personal Project - Rock Paper Scissor game
 
 - This is a personal project undertaken to enhance and get hands-on practice with JavaScript.
-- This project is based on "Rock, Paper and Scissors" game wherein computer generates random choices and we have to counteract and win.
+- This project is based on "Rock, Paper and Scissor" game wherein computer generates random choices and we have to counteract and win.
 - The project offers intuitive and simple user interface for the best experience.
 
 ## Table of contents
@@ -35,14 +35,19 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](screenshots/desktop.png)
+Welcome Page - This shows the starting page of the website wherein you can choose the number of rounds to play
+![Start Page](screenshots/startPage.png)
 
-![Mobile](screenshots/mobile.png)
+Game Play Stage - This is the section where you interact with components and play the game
+![Game Play Page](screenshots/playPage.png)
+
+Results Page - This is the section where you will see the results of how well you played and the statistics of the entire session
+![Results Page](screenshots/endPage.png)
 
 ### Links
 
-- Solution URL: [Repository link](https://github.com/kushagarwal11ag/rock-paper-scissors)
-- Live Site URL: [Website link](https://kushagarwal11ag.github.io/rock-paper-scissors/)
+- Solution URL: [Repository link](https://github.com/kushagarwal11ag/rock-paper-scissor)
+- Live Site URL: [Website link](https://kushagarwal11ag.github.io/rock-paper-scissor/)
 
 ## My process
 
@@ -85,4 +90,4 @@ function nextRoundFn() {
 
 ## Acknowledgments
 
-Credits to [Ania Kubow](https://www.youtube.com/@AniaKubow) for inspiring me to undertake this simple project to better my JavaScipt skills.
+Credits to [Ania Kubow](https://www.youtube.com/@AniaKubow) for inspiring me to undertake this simple project to better my JavaScript skills.
