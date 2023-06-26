@@ -1,4 +1,4 @@
-# Peronsal Project - Rock Paper Scissors game
+# Personal Project - Rock Paper Scissors game
 
 - This is a personal project undertaken to enhance and get hands-on practice with JavaScript.
 - This project is based on "Rock, Paper and Scissors" game wherein computer generates random choices and we have to counteract and win.
