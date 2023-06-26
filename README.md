@@ -28,7 +28,7 @@ Users should be able to:
 - track current number of round and total rounds
 - be able to choose a weapon between 'rock', 'paper' and 'scissor' to have a chance to win the round
 - know the round result after choosing weapon
-- track total wins and losses from the starting round
+- track total wins and losses until current round
 - know the weapon chosen by you and computer within round
 - know the final result after completing game
   - The game details will be shown in result page (rounds won, lost, tied and total rounds played)
