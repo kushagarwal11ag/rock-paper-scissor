@@ -105,6 +105,10 @@ function nextRoundFn() {
 			resultDesc.innerHTML = "Good Effort!";
 		}
 	}
+
+	yourScoreMaintain.innerHTML = `You: ${playerScore}`;
+	oppScoreMaintain.innerHTML = `Computer: ${compScore}`;
+
 }
 
 rock.addEventListener("click", rockChoice);
