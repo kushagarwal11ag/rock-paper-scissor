@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rock Paper Scissors</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/logo.png" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<main>
+			<section id="enter-rounds">
+				<div class="sliderDiv" style="color: black">No. of rounds:</div>
+				<input type="range" id="slider" min="1" max="100" step="2" />
+				<button id="play">
+					<i class="fa fa-play"></i>
+					<div>Play</div>
+				</button>
+			</section>
+
+			<section id="card">
+				<div id="round">
+					<div>Round</div>
+					<div>
+						<span class="current-round"></span> /
+						<span class="total-rounds"></span>
+					</div>
+				</div>
+				<div id="round-result"></div>
+				<div class="score-maintain">
+					<div class="your-score"></div>
+					<div class="opp-score"></div>
+				</div>
+
+				<section id="button-layout">
+					<button id="rock">
+						<img src="images/rock.png" />
+						<div class="icon-name">Rock</div>
+					</button>
+					<button id="paper">
+						<img src="images/paper.png" />
+						<div class="icon-name">Paper</div>
+					</button>
+					<button id="scissor">
+						<img src="images/scissor.png" />
+						<div class="icon-name">Scissor</div>
+					</button>
+				</section>
+
+				<button class="next-round">Next Round</button>
+			</section>
+
+			<section id="result-section">
+				<div id="final-result"></div>
+				<div class="result-description"></div>
+				<button class="result-button">
+					<i class="fa fa-angle-down hideMe"></i>
+				</button>
+				<div class="result-details"></div>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #fefcfb;
+	color: #221407;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+#enter-rounds {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-color: #fbf5ee;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+/* Hide the default track and thumb styles */
+input[type="range"] {
+	appearance: none;
+}
+
+/* Define the track style */
+input[type="range"]::-webkit-slider-runnable-track {
+	border-radius: 25px;
+    border: 1px solid black;
+}
+
+/* Define the thumb style */
+input[type="range"]::-webkit-slider-thumb {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background: #221407;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#play {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: .5rem;
+	border: none;
+}
+
+#card {
+	margin: 2rem;
+	padding: 2rem;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+#round {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 1rem;
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+#round-result,
+#final-result {
+	font-family: "Playfair Display", serif;
+	color: #e85d5d;
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
+	text-align: center;
+}
+
+.score-maintain {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+}
+
+#button-layout {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+button {
+	display: flex;
+	flex-direction: column;
+	all: unset;
+	background-color: #fbf5ee;
+	border: 1px solid black;
+	padding: 1rem;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+button:hover {
+	transform: translateY(-5px);
+}
+
+img {
+	width: 5rem;
+	height: auto;
+	margin-bottom: 1rem;
+}
+
+.icon-name {
+	text-align: center;
+}
+
+.next-round {
+	width: 100%;
+	text-align: center;
+}
+
+#result-section {
+	margin: 2rem;
+	padding: 2rem;
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	gap: 1rem;
+	background-color: #fbf5ee;
+}
+
+.result-button {
+	border: none;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.hideMe {
+	display: flex;
+}
+
+.result-details {
+	display: none;
+	flex-direction: column;
+	font-size: .8rem;
+	text-align: left;
+}
+
+@media (min-width: 450px) {
+
+	.score-maintain {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#round,
+	#button-layout {
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 650px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 800px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1000px) {
+	html {
+		font-size: 22px;
+	}
+}
