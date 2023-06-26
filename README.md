@@ -63,7 +63,7 @@ In CSS, learned to better style the range slider of input type. This code change
 ```css
 input[type="range"]::-webkit-slider-runnable-track {
 	border-radius: 25px;
-  border: 1px solid black;
+	border: 1px solid black;
 }
 ```
 
