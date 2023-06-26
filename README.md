@@ -85,4 +85,4 @@ function nextRoundFn() {
 
 ## Acknowledgments
 
-Credits to Ania Kubow [Youtuber](https://www.youtube.com/@AniaKubow) for inspiring me to undertake this simple project to better my JavaScipt skills.
+Credits to [Ania Kubow](https://www.youtube.com/@AniaKubow) for inspiring me to undertake this simple project to better my JavaScipt skills.
